@@ -1,0 +1,18 @@
+Blackjack MVP:
+
+Two players, using Player abstract class for name and cards in hand.
+DeckOfCards class, functions for dealing out cards, displaying the card to the player upon dealing it, refilling the deck after each hand, randomising each card drawn.
+Individual player class, functions to display their hands, calculate which player holds the highest number from their cards and declare that one the winner, deleting hands after each round, resetting the game.
+IndividualPlayer inherits name and cards from Player abstract class.
+
+Tests:
+Do any given two cards add up correctly?
+Does each player have a name?
+Does each player have two cards when they are dealt out?
+Does the game calculate a winner correctly?
+Does the game reset all hands when the game is done?
+Does the deck refill once the game is done?
+Do the cards randomise each time they are dealt?
+Does the player see their cards printed on-screen?
+Does the game show the winner's cards at the end?
+Does the game show the loser's cards at the end?
